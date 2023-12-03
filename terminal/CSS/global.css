@@ -63,141 +63,308 @@
   
   .active {
     color: rgb(198, 198, 198);
-  }
+  }´
+
+
+  .Luxury {
+    display: flex;
+    width: 490px;
+    height: 47px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #B4B7B7;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 112.5% */}
+
+.Realstate {
+  font-family: 'PF Regal Display Pro';
+  font-style: normal;
+   font-weight: 500;
+   font-size: 60px;
+   color: #FFFFFF;
+   margin-top: 30%;
+   margin-left: 90px;
+
+
+}
+
+  .primer_boton{
+    
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  width: 500px;
+  height: 800px;
+  transform: rotate(-90deg);
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 1px solid white;
+  margin-top: 60%;
+  margin-left: 100px;
+
+}
   
-  main img {
+
+
+  #buscar {
+    display: flex;
+    flex-shrink: 0;
+    width: fit-content;
+    font-size: 16px;
+    padding: 7px 0 7px 20px;
+    border: 1px solid white;
+    border-radius: 100px;
+    background: none;
+    margin-top: 25px;
+    margin-left: 50%;
+    
+  }
+
+  input#buscar::placeholder{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;  
+  background-image: url(../IMG/lupa.png);  
+  background-repeat: no-repeat;
+  background-position: right;
+ 
+  
+  }
+
+  .presentacion {
+    display: grid;
+    background-image: url(../IMG/principaltodo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    object-position: top -300px right 0;
-    overflow-x: hidden;
+    height: 900px;
   }
-  
-  .Luxury, .Realstate {
+
+#contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3%;
+}
+#galerizfotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: hidden;
+  column-gap: 5px;
+  direction: rtl;
+}
+
+.galeria1{
+  max-height: 425px;
+}
+
+.titulo {
+display: flex;
+width: 689px;
+height: 47px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #DF991B;
+
+text-align: right;
+font-family: PF Regal Display Pro;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 45px; /* 112.5% */
+}
+
+.subtitulo {
   display: flex;
-  width: 490px;
+width: 776px;
+height: 99px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #000;
+
+text-align: right;
+font-family: PF Regal Display Pro;
+font-size: 80px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px; /* 56.25% */
+}
+.primer_boton1  {
+  color: #000;
+  text-align: center;
+  font-family: Brandon Grotesque;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 390;
+  line-height: 45px; /* 150% */
+  border-radius: 100px;
+  border: 1px solid rgb(24, 23, 23);
+}
+
+#botongaleria {
+
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 150px;
+  margin-left: 25%;
+  margin-right: 25%;
+  
+}
+
+
+.Prev{
+display: flex;
+width: fit-content;
+height: fit-content;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #B4B7B7;
+
+font-family: Brandon Grotesque;
+font-size: 18px;
+font-style: normal;
+font-weight: 390;
+line-height: 45px; /* 225% */
+}
+
+.next{
+  display: flex;
+  width: fit-content;
   height: fit-content;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
+  color: #DF991B;
+  font-family: Brandon Grotesque;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 390;
+  line-height: 45px; /* 225% */
+}
+#contenedor2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3%;
+}
+#galeriafotos2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: hidden;
+  column-gap: 5px;
+  direction: ltr;
 }
 
-  .Luxury {
-  color: #B4B7B7;
+.galeria2{
+  max-height: 425px;
+}
+.titulo2 {
+  display: flex;
+  width: 490px;
+  height: 47px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  
+  color: #DF991B;
 
   font-family: PF Regal Display Pro;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: 45px; /* 112.5% */
-}
-.Realstate {
-  color: #FFF;
+  }
+  
+  .subtitulo2 {
+    display: flex;
+  width: 776px;
+  height: 99px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+
   font-family: PF Regal Display Pro;
   font-size: 80px;
   font-style: normal;
   font-weight: 500;
   line-height: 45px; /* 56.25% */
-}
-
-  .primer_boton{
-    width: fit-content;
-  height: fit-content;
-  transform: rotate(-90deg);
+  }
+  .contenido {
+    width: 689px;
+  height: 184px;
   flex-shrink: 0;
-  border-radius: 100px;
-  border: 1px solid black;}
-
-
-  #buscar {
-  
-    flex-shrink: 0;
-    width: fit-content;
-    font-size: 18px;
-    padding: 7px 0 7px 20px;
-    border: 1px solid white;
-    border-radius: 100px;
-    background: none;
-    grid-column: 2/3;
-    
-
+  color: #000;
+  font-family: Brandon Grotesque;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 330;
+  line-height: 45px; /* 150% */
   }
-
-  input#buscar::placeholder{
-  color: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;  
-  background-image: url(../IMG/Group\ 241.png);  
-  background-repeat: no-repeat;
-    background-position: right;
-  }
-
-  #presentacion {
-    background-image: url(../IMG/Group\ 254.png);
-    
-
-  }
-
-   .news {
-    background-color: rgb(39, 39, 39);
-    display: flex;
-    gap: 16px;
-    padding: 16px 50px;
-    transform: translate(0, -50%);
-  }
-  
-  .news span {
-    color: orange;
-    font-size: 20px;
-  }
-  
-  .news p {
-    color: white;
-    font-size: 32px;
-  }
-  
-  .footer-form {
-    display: grid;
-    gap: 8px;
-  }
-  
-  .footer-form input {
-    background-color: transparent;
-    border: solid 2px grey;
-    border-radius: 20px;
-    padding: 6px 16px;
-    width: 100%;
-  }
-  
-  .footer-form button {
-    background-color: transparent;
-    border: solid 2px orange;
-    border-radius: 20px;
-    padding: 6px 32px;
-    width: fit-content;
-    color: orange;
-    justify-self: end;
-  }
-  
-  .info {
-    display: grid;
-    gap: 16px;
-    color: white;
-  }
-  
-  .footer-bar {
-    width: 100%;
-    height: 3px;
-    background-color: white;
-  }
-  
-  .copyright {
+  .primer_boton2 {
+    color: #000;
     text-align: center;
-    margin-bottom: 16px;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px; /* 150% */
+    border-radius: 100px;
+    border: 1px solid rgb(24, 23, 23);
   }
   
-  .footer-text {
+  #botongaleria1 {
+  
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 5%;
+    margin-right: 25%;   
+  }
+  
+  
+  .Prev1{
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #B4B7B7;
+  
+  font-family: Brandon Grotesque;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 390;
+  line-height: 45px; /* 225% */
+  }
+  
+  .next1{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #DF991B;
+    font-family: Brandon Grotesque;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px; /* 225% */
+  }
+  div#galeriafotos3 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    width: 200%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+    max-width: 1820px;
+    margin: 20px auto
+  ;
   }
-  
- 
