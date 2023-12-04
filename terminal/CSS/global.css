@@ -16,6 +16,12 @@
     margin: 50px 50px 100px 50px;
   }
 
+  main {
+    
+    object-fit: cover;
+    object-position: top -300px right 0;
+    overflow-x: hidden;
+  }
   
   header nav {
     position: fixed;
@@ -218,9 +224,7 @@ line-height: 45px; /* 56.25% */
   gap: 15px;
   margin-top: 150px;
   margin-left: 25%;
-  margin-right: 25%;
- 
-  
+  margin-right: 25%;  
 }
 
 
@@ -328,11 +332,6 @@ line-height: 45px; /* 225% */
   font-weight: 500;
   line-height: 45px; /* 112.5% */
 }
-
-
-
-
-
 
 
 
@@ -578,10 +577,67 @@ line-height: 45px; /* 225% */
 
   .galeria4{
 
-    max-width: 800px;
+    max-width: 600px;
    
 }
 
+
+.primer_boton3  {
+  color: #000;
+  text-align: center;
+  font-family: Brandon Grotesque;
+  font-size: 15px;
+  padding: 3px;
+  font-style: normal;
+  font-weight: 390;
+  line-height: 45px; /* 150% */
+  border-radius: 100px;
+  border: 1px solid rgb(24, 23, 23);
+  
+}
+
+#botongaleria4 {
+
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 15px;
+  margin-left: 25%;
+  margin-right: 25%; 
+}
+
+
+.Prev3{
+display: flex;
+width: fit-content;
+height: fit-content;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #B4B7B7;
+
+font-family: Brandon Grotesque;
+font-size: 18px;
+font-style: normal;
+font-weight: 390;
+line-height: 45px; /* 225% */
+}
+
+.next4{
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #DF991B;
+  font-family: Brandon Grotesque;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 390;
+  line-height: 45px; /* 225% */
+  margin-left: 15%;
+}
 
 .galeria5 {
 
@@ -593,10 +649,7 @@ line-height: 45px; /* 225% */
   margin: 10px 10px 20px 20px;
 }
 
-.linea3 {
-  margin: 0 30px;
 
-}
 
 footer {
   background-color: black;
@@ -680,12 +733,6 @@ footer {
   text-align: end;
   justify-self: end;
 }
-main {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  object-position: top -300px right 0;
-  overflow-x: hidden;
-}
+
 
 
