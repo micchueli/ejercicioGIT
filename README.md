@@ -1,4 +1,4 @@
 # Proyecto LandingPage
-Proyecto LandingPage Michelle Llano 
+Proyecto LandingPage 
 Michelle Eliabeth Llano Guamani
 corre: mllano@istct.edu.ec 
