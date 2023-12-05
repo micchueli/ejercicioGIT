@@ -80,10 +80,10 @@
    }
    #buscar {
     
-    width: 600px;
+    width: 100%;
     margin-right: 89%;
     margin-top: 20%;
-    margin-left: 5%;
+    margin-left: 0.5%;
   }
   input#buscar::placeholder{
     color: white;
@@ -135,7 +135,7 @@
  
   .subtitulo::after{
     content: "In an ultimate jetsetter location or a forever home, our experts have the expertise it takes to knowledgeably advise you at every stage of the property cycle.";
-    width: 320px;
+    width: 100vh;
     font-size: 15px;
     line-height: 20px;
     justify-content: right;
@@ -171,13 +171,18 @@
     direction: ltr;
   }
   .contenido, .contenido1 {
-    width: 320px;
-    font-size: 15px;
-    line-height: 20px;
     justify-content: right;
 
   }
+  .contenido {
+    font-size: 20px;
+    line-height: 40px;
+  }
  
+  .contenido1 {
+    width: 100vh;
+  }
+
   .tituloimg {
     display: flex;
     width: 100%;
