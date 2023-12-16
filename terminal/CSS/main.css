@@ -1,5 +1,5 @@
-@media screen and (max-width: 650px) {
-    #logo, #logo1{
+@media screen and (max-width: 500px) {
+    #logo {
       display: none;
     }
     #mobile {
@@ -28,6 +28,8 @@
    width: 100vh;
 
   }
+
+
 
   .footer-text, #contacto, .news {
     display: grid;
@@ -68,8 +70,6 @@
     justify-self: center;
   
   }
-
-
 
     #realestate{
     margin-left: 5%;
